@@ -1,5 +1,4 @@
-# PersonalWebsiteHackathonWkshp2
-Workshop 2 for the Personal Website Hackathon @ Insper, covering responsive design and twitter bootstrap
+# Workshop 2: Responsive Design and Bootstrap
 
 ##What is Responsive Design?
 Designing your website to look good across multiple screen sizes and therefore multiple devices.
