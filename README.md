@@ -2,7 +2,8 @@
 Workshop 2 for the Personal Website Hackathon @ Insper, covering responsive design and twitter bootstrap
 
 ##What is Responsive Design?
-Basically, it is designing your website to look good across multiple screen sizes and therefore multiple devices.
+Designing your website to look good across multiple screen sizes and therefore multiple devices.
+maybe provide the original essay but I cant find it
 #####Examples of Good Responsive Design
  - find these
 
