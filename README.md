@@ -3,7 +3,7 @@ Workshop 2 for the Personal Website Hackathon @ Insper, covering responsive desi
 
 ##What is Responsive Design?
 Designing your website to look good across multiple screen sizes and therefore multiple devices.
-maybe provide the original essay but I cant find it
+The concept was introduced in 2010 in [this A List Apart Article](http://alistapart.com/article/responsive-web-design)
 #####Examples of Good Responsive Design
  - find these
 
