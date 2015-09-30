@@ -3,6 +3,7 @@
 ####What is Responsive Design?
 Designing your website to look good across multiple screen sizes and therefore multiple devices.
 - If you want to read more about it, the concept was introduced in 2010 in [this A List Apart Article](http://alistapart.com/article/responsive-web-design)
+
 #####Examples of Good Responsive Design
  - find these
 
