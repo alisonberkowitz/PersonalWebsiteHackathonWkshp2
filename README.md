@@ -23,4 +23,34 @@ Bootstrap provides many reusable components that you may find useful for your we
 
 1. Go to the ["Components"](http://getbootstrap.com/components/) section of the website. Here you can see examples of all of Bootstrap's reusable components
 2. We will start with a [navbar](http://getbootstrap.com/components/#navbar) because this is a common component of any website
-3. Navbar can link to different sections of your website or you can make new pages. This is done by making more html files.
+3. For this example, our navbar will link to an "About Me" page and a "Projects" page.
+4. Paste the following code inside the body of your html file:
+
+  ```html
+    <!-- Navigation Bar -->
+    <nav role="navigation" class="navbar navbar-default">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Brand</a>
+        </div>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+  ```
+5. Replace 'Brand' with your name or whatever you would like to really
+6. On the list element for each page change ```<a href="#">``` to link to the corresponding html file ex. ```<a href="aboutme.html">``` 
+  * This means your 'aboutme.html' file is in the same directory as your 'index.html' file (it should be). If not, you need to provide the relative path
+  * This is assuming you have a file called 'aboutme.html' make sure the name of your file for your "About Me" page matches the name you link to in the ```href```
+7. Now once you have the html files for your other pages, you have a responsive navbar that will link to them :)
