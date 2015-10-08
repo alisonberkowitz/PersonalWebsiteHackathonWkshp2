@@ -54,3 +54,7 @@ Bootstrap provides many reusable components that you may find useful for your we
   * This means your 'aboutme.html' file is in the same directory as your 'index.html' file (it should be). If not, you need to provide the relative path
   * This is assuming you have a file called 'aboutme.html' make sure the name of your file for your "About Me" page matches the name you link to in the ```href```
 7. Now once you have the html files for your other pages, you have a responsive navbar that will link to them :)
+8. Browse through the other reusable components bootstrap provides and try to implement some more in your website
+
+#####Bootstrap's Grid System
+It is easy to make your website responsive to different screen sizes with Bootstrap's responsive, mobile first fluid grid system http://getbootstrap.com/css/#grid
