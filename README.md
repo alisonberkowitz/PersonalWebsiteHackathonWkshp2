@@ -5,7 +5,7 @@ Designing your website to look good across multiple screen sizes and therefore m
 - If you want to read more about it, the concept was introduced in 2010 in [this A List Apart Article](http://alistapart.com/article/responsive-web-design)
 
 #####Examples of Good Responsive Design
- - find these
+ - https://responsivedesign.is/examples
 
 ####Bootstrap
 [getbootstrap.com](getbootstrap.com)
@@ -13,8 +13,14 @@ Designing your website to look good across multiple screen sizes and therefore m
 *“Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.”*
 
 #####Use Bootstrap in your personal website
-1. Go to the "Getting Started" section of the website
+1. Go to the ["Getting Started"](http://getbootstrap.com/getting-started/) section of the website
 2. Scroll down to where it says 'Bootstrap CDN' and copy and paste that snippet of code into your index.html file header
-* this is the quickest way to do it, but in terms of performance, you may want to eventually download the files and save them in your website's directory
-* for now referencing the CDN is good enough
-3. Use whatever Bootstrap components you like in your website
+  * this is the quickest way to do it, but in terms of performance, you may want to eventually download the files and save them in your website's directory
+  * for now referencing the CDN is good enough
+
+#####Components - Navbar
+Bootstrap provides many reusable components that you may find useful for your website, such as dropdowns and navbars
+
+1. Go to the ["Components"](http://getbootstrap.com/components/) section of the website. Here you can see examples of all of Bootstrap's reusable components
+2. We will start with a [navbar](http://getbootstrap.com/components/#navbar) because this is a common component of any website
+3. Navbar can link to different sections of your website or you can make new pages. This is done by making more html files.
