@@ -59,8 +59,8 @@ Bootstrap provides many reusable components that you may find useful for your we
 #####Bootstrap's Grid System
 It is easy to make your website responsive to different screen sizes with Bootstrap's responsive, mobile first fluid grid system http://getbootstrap.com/css/#grid
 
-Bootstrap uses a 12 column system. This means that your column widths inside any row should add up to 12. When defining a column, you assign it 'xs' 's' 'm' or 'lg' which corresponds to the size of the smallest size browser that will display the content in columns, any browser smaller will just stack the columns.
+Bootstrap uses a 12 column system to make it easy to format your site. This means that your column width sizes inside any row should add up to 12. For example, if you wanted three equal sized columns in one row, you would have three columns of size 4 (because 4+4+4=12). If you wanted three columns, but for one to be twice as large as the others, you could have one column of size 6, and the other be size 3 (because 6+3+3=12).
 
-Try resizing your browser with this link open: https://getbootstrap.com/examples/grid/ to understand the column system.
+You can also optimize your site for different screen sizes! When defining a column, you assign it 'xs' 's' 'm' or 'lg' which corresponds to the size of the smallest size browser that will display the content in columns, any browser smaller will just stack the columns.
 
-ROBBIE HELP ME EXPLAIN THIS BETTER IM STRUGGLIN FOR IT TO MAKE SENSE
+To get a better understanding of what this all means, try resizing your browser with this link open: https://getbootstrap.com/examples/grid/ to understand the column system.
