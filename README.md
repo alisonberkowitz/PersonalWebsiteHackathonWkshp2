@@ -63,4 +63,13 @@ Bootstrap uses a 12 column system to make it easy to format your site. This mean
 
 You can also optimize your site for different screen sizes! When defining a column, you assign it 'xs' 's' 'm' or 'lg' which corresponds to the size of the smallest size browser that will display the content in columns, any browser smaller will just stack the columns.
 
+######Example code for 3 equal columns to be only displayed as columns on a medium device or larger
+ ```html
+ <div class="row">
+   <div class="col-md-4">Content for your first column</div>
+   <div class="col-md-4">Content for your second column</div>
+   <div class="col-md-4">Content for your third column</div>
+ </div>
+  ```
+
 To get a better understanding of what this all means, try resizing your browser with this link open: https://getbootstrap.com/examples/grid/ to understand the column system.
